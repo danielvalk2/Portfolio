@@ -124,7 +124,7 @@ p.descrip {
     flex-direction: column;
     text-align: center;
     padding: 60px;
-    background-image: linear-gradient(to bottom ,pink, #f7b2a3);
+    background-image: linear-gradient(to bottom ,pink, pink);
 }
 
 .content-project {
@@ -144,7 +144,7 @@ p.descrip {
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-image: linear-gradient(to bottom, #f7b2a3,#f7b2a3);
+    background-image: linear-gradient(to bottom, pink,#d34cb4);
 }
 
 .link {
@@ -192,6 +192,14 @@ button.form-control {
 div.card {
     display: block;
     background-color: rgb(245, 192, 241);
+}
+
+.title {
+  color: pink;
+}
+
+.card-text {
+  color:pink;
 }
 
 hr {
